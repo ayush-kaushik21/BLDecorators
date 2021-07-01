@@ -1,0 +1,16 @@
+.topbar__menu{
+ width: 100%;
+ display: flex;
+ // justify-content: space-between;
+
+ .social__icons{
+  margin-left: 3rem;
+ }
+ 
+ .contact__details{
+  width: 100% !important;
+  display: flex;
+  flex-direction: row;
+  margin-left: 13rem;
+ }
+}

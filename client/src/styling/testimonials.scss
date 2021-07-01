@@ -1,0 +1,30 @@
+.testimonials{
+ background-color: $background__color;
+ min-height: 80vh;
+ width: 100%;
+ padding-bottom: 1rem;
+}
+
+.left__btn{
+ background-color: $main__color;
+ border-radius: 50%;
+ height: 2.5rem;
+ width: 2.5rem;
+
+ &__icon{
+  margin-top: 0.3rem;
+  margin-right: 0.35rem;
+ }
+
+ &__icon__right{
+  margin-top: 0.3rem;
+  margin-left: 0.35rem;
+ }
+
+}
+
+@media(max-width:768px){
+ .testimonials {
+  min-height: 52vh;
+ }
+}

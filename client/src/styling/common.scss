@@ -1,0 +1,111 @@
+$primary__white: #fff;
+$main__color: rgba(167, 1, 20, 0.658);
+$background__color:#FCF6F5FF;
+$gallery__color:rgb(235, 230, 229);
+$card__color:#f4ece6;
+$linkedin:#0077b5;
+$github:#211F1F;
+$mail:#EA4335;
+$orange:#ffa600c7;
+$heart__color:#a83f39;
+$color__gradient: linear-gradient(202deg, rgba(2, 0, 36, 1) 0%, rgba(185, 34, 34, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+// my website color
+
+
+
+// Buttons
+.myBtn {
+ text-decoration: none;
+ padding: 0.5rem 1.5rem;
+ border-radius: 30px;
+ color: $primary__white;
+ transition: all 0.5s ease;
+}
+
+.resumeClass {
+ background-color: $orange;
+ border: 2px solid $orange;
+
+ &:hover {
+  color: $orange;
+  background-color: $primary__white;
+  border: 2px solid $orange;
+ }
+}
+
+.skillsClass {
+ margin-left: 1rem;
+ color: $orange;
+ background-color: $primary__white;
+ border: 2px solid $orange;
+
+ &:hover {
+  color: $primary__white;
+  background-color: $orange;
+ }
+}
+
+//  Social Icons
+.social__icons {
+ width: 100%;
+ background-color: $primary__white;
+
+ .linkedin {
+  color: $linkedin;
+ }
+
+ .github {
+  color: $github;
+ }
+
+ .mail {
+  color: $mail;
+ }
+}
+
+
+
+//  animation
+.animateImg {
+ animation: upDown 2s ease-in-out infinite alternate-reverse both;
+}
+
+// Testimonial Card
+
+.card__testimonial {
+ height: 15rem;
+}
+
+
+@keyframes upDown {
+ 0% {
+  transform: translateY(20px);
+ }
+
+ 100% {
+  transform: translateY(-20px);
+ }
+}
+
+$width: 768px;
+
+
+//  media queries
+
+@media(max-width:768px) {
+ .animateImg {
+  animation: upDown 2s ease-in-out infinite alternate-reverse both;
+  z-index: -1;
+ }
+
+ @keyframes upDown {
+  0% {
+   transform: translateY(10px);
+  }
+
+  100% {
+   transform: translateY(-10px);
+  }
+ }
+}

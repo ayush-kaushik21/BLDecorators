@@ -1,0 +1,54 @@
+#gallery{
+  background-color: $background__color;
+  // min-height: 100vh;
+  // margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.heading{
+ color: $main__color;
+ font-weight: bold;
+ text-transform: capitalize;
+}
+  .gallery__card{
+    width: 21rem;
+    height: 13rem;
+ cursor: pointer;
+ position: relative;
+ outline: none;
+ border: none;
+
+  .img__style {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.01);
+  }
+
+ .info{
+  position: absolute;
+  bottom: 0.7rem;
+  left: 1rem;
+  opacity: 0;
+
+  p{
+   font-size: 1.5rem;
+   color: $primary__white;
+   font-weight: 600;
+  }
+ }
+ &:hover{
+   .img__style{
+     transform: scale(1);
+     transition: 0.8s ease all;
+   }
+  .info{
+   opacity: 1;
+   transition: 0.8s ease all;
+  }
+ }
+
+}
+
+@media(max-width:768px){
+  
+}

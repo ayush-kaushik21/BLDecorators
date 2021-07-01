@@ -1,0 +1,46 @@
+.card__testimonial {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:  2rem 2rem;
+  border: 1.5px solid $main__color !important;
+
+  .img__container{
+    height: 6rem;
+    width: 6rem;
+    position: relative;
+    margin-bottom: 1rem;
+ 
+
+    img{
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      border-radius: 50%;
+
+    }
+  }
+
+  .card__body{
+    text-align: center;
+    text-transform: capitalize;
+
+    &__feed{
+      margin-top: 1rem;
+      // max-width: 19rem !important;
+    }
+
+    .star{
+      margin-top: 1rem;
+      color: #FDCC0D;
+    }
+    .star__unliked{
+      margin-top: 1rem;
+      color: grey;
+    }
+  }
+
+}
