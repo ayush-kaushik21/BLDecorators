@@ -23,8 +23,20 @@
 
 }
 
+.test__img__container{
+ display: none;
+}
+
 @media(max-width:768px){
  .testimonials {
-  min-height: 52vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+ }
+ .test__img__container {
+  display: block;
+  margin-bottom: 2rem;
  }
 }

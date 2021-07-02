@@ -4,12 +4,16 @@ import SecondTest from './SecondTest'
 import ThirdTest from './ThirdTest'
 import FourthTest from './FourthTest'
 import FiveTest from './FiveTest'
+import testLogo from '../../images/undraw_My_answer_re_k4dv.svg'
 
 const Testimonials = () => {
   return (
     <div id='testimonial'>
       <div className='testimonials'>
         <h1 className='text-center py-4 heading'>Our Happy Customers</h1>
+        <div className='test__img__container col-10'>
+          <img src={testLogo} alt='testLogo' className='img-fluid animateImg' />
+        </div>
         <div className='container'>
           <div
             id='carouselExampleControls'

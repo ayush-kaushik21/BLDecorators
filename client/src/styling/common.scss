@@ -16,59 +16,22 @@ $color__gradient: linear-gradient(202deg, rgba(2, 0, 36, 1) 0%, rgba(185, 34, 34
 
 // Buttons
 .myBtn {
+ font-size: 1.3rem;
  text-decoration: none;
- padding: 0.5rem 1.5rem;
+ padding: 0.8rem 1.8rem;
  border-radius: 30px;
  color: $primary__white;
  transition: all 0.5s ease;
 }
 
-.resumeClass {
- background-color: $orange;
- border: 2px solid $orange;
 
- &:hover {
-  color: $orange;
-  background-color: $primary__white;
-  border: 2px solid $orange;
- }
-}
 
-.skillsClass {
- margin-left: 1rem;
- color: $orange;
- background-color: $primary__white;
- border: 2px solid $orange;
-
- &:hover {
-  color: $primary__white;
-  background-color: $orange;
- }
-}
-
-//  Social Icons
-.social__icons {
- width: 100%;
- background-color: $primary__white;
-
- .linkedin {
-  color: $linkedin;
- }
-
- .github {
-  color: $github;
- }
-
- .mail {
-  color: $mail;
- }
-}
 
 
 
 //  animation
 .animateImg {
- animation: upDown 2s ease-in-out infinite alternate-reverse both;
+ animation: upDown 1.5s ease infinite alternate-reverse both;
 }
 
 // Testimonial Card
@@ -95,7 +58,7 @@ $width: 768px;
 
 @media(max-width:768px) {
  .animateImg {
-  animation: upDown 2s ease-in-out infinite alternate-reverse both;
+  animation: upDown 1.5s ease-in-out infinite alternate-reverse both;
   z-index: -1;
  }
 

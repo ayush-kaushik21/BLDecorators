@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const HomeScreen = () => {
   return (
@@ -38,10 +39,6 @@ const HomeScreen = () => {
                 className='d-block w-100'
                 alt='first'
               />
-              <div className='carousel-caption d-none d-md-block'>
-                <h5>Royal Wedding Decor</h5>
-                <p>We furnish the essence of royal wedding theme to couple</p>
-              </div>
             </div>
             <div className='carousel-item'>
               <img
@@ -49,12 +46,6 @@ const HomeScreen = () => {
                 className='d-block w-100 mx-auto'
                 alt='second'
               />
-              <div className='carousel-caption d-none d-md-block'>
-                <h5>Ring Engagement</h5>
-                <p>
-                  Some representative placeholder content for the second slide.
-                </p>
-              </div>
             </div>
             <div className='carousel-item'>
               <img
@@ -62,12 +53,6 @@ const HomeScreen = () => {
                 className='d-block w-100'
                 alt='third'
               />
-              <div className='carousel-caption d-none d-md-block'>
-                <h5>Dining Decor</h5>
-                <p>
-                  Some representative placeholder content for the third slide.
-                </p>
-              </div>
             </div>
           </div>
           <button
@@ -94,6 +79,37 @@ const HomeScreen = () => {
             ></span>
             <span className='visually-hidden'>Next</span>
           </button>
+        </div>
+      </div>
+      <div className='home__text'>
+        <div className='row'>
+          <div className='col-md-6 col-10 mx-auto'>
+            <div className='home__text__card__left'>
+              <h1 className='h11'>Welcome To</h1>
+              <h4 className='h44'>BILLU LIGHT DECORATORS</h4>
+            </div>
+          </div>
+          <div className='col-md-6 col-10 mx-auto'>
+            <div className='home__text__card__right '>
+              <h5 className='h5__home'>
+                We create you dream decoration into reality!!!
+              </h5>
+              <p className='p__home'>
+                Make your special day memorable with us.
+              </p>
+              <div className='home__btn__div'>
+                <NavLink to='/about' className='myBtn homeScreen__btn__left '>
+                  About
+                </NavLink>
+                <NavLink
+                  to='/gallery'
+                  className='myBtn homeScreen__btn__right '
+                >
+                  Gallery
+                </NavLink>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

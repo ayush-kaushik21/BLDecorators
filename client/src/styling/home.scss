@@ -1,11 +1,12 @@
 .carousel-inner>.carousel-item>img {
  width: 100%;
- height: 460px;
+ height: 500px;
 }
 
 .slider__container{
  width: 85vw;
  margin: auto;
+ position: relative; 
 }
 
 .homeScreen{
@@ -13,3 +14,194 @@
  height: 110%;
  background-color: $background__color;
 }
+
+.home__text{
+ --bs-gutter-x: 0rem;
+ margin: 0 5rem;
+ padding: 3rem 0;
+
+ .row{
+  padding-right: calc(var(--bs-gutter-x) * 0);
+  padding-left: calc(var(--bs-gutter-x) * 0) !important;
+
+
+ .home__text__card__left{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2VkZGluZyUyMGRlY29yYXRpb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+  .h11{
+   color: $primary__white;
+   font-weight: 500;
+   letter-spacing: 0.1rem;
+   font-size: 1.5rem;
+  }
+  .h44{
+   color: $primary__white;
+   font-weight: 700;
+   letter-spacing: 0.2rem;
+   font-size: 3rem;
+   font-family: 'Acme',
+   sans-serif;
+  }
+ }
+ .home__text__card__right {
+  background: $primary__white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+  width: 100%;
+
+  .h5__home {
+   text-transform: capitalize;
+   font-size: 2rem;
+   letter-spacing: 0.1rem;
+   padding: 0 2rem 1rem 2rem;
+   font-weight: 500;
+   color: $main__color;
+  }
+
+  .p__home{
+   text-transform: capitalize;
+   font-size: 1.1rem;
+   padding-bottom: 1rem;
+   letter-spacing: 0.1rem;
+   color: $main__color;
+  }
+
+  .homeScreen__btn__left{
+   margin: 1rem;
+   background-color: $main__color;
+   color: $background__color;
+   border: 2px solid $main__color;
+
+   &:hover{
+    background-color: $primary__white;
+    color: $main__color;
+    transition: all 0.5s ease-in-out;
+   }
+  }
+
+  .homeScreen__btn__right{
+   margin: 1rem;
+   color: $main__color;
+   border: 2px solid $main__color;
+
+   &:hover {
+    background-color: $main__color;
+    color: $primary__white;
+    transition: all 0.5s ease-in-out;
+   }
+  }
+ }
+}
+}
+
+@media(max-width:768px){
+ .home__text {
+  --bs-gutter-x: 0rem;
+  margin: 0 ;
+  padding: 0;
+  margin-top: 2rem;
+
+  .row {
+   padding-right: calc(var(--bs-gutter-x) * 0);
+   padding-left: calc(var(--bs-gutter-x) * 0) !important;
+   --bs-gutter-x: 0;
+
+
+   .home__text__card__left {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     url(https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2VkZGluZyUyMGRlY29yYXRpb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    .h11 {
+     color: $primary__white;
+     font-weight: 500;
+     letter-spacing: 0.1rem;
+     font-size: 1.3rem;
+    }
+
+    .h44 {
+     color: $primary__white;
+     font-weight: 700;
+     letter-spacing: 0.2rem;
+     font-size: 2.5rem;
+     font-family: 'Acme',
+      sans-serif;
+    }
+   }
+
+   .home__text__card__right {
+    background: $primary__white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+    margin: 2rem 0;
+
+      .h5__home {
+       text-transform: capitalize;
+       font-size: 1.7rem;
+       letter-spacing: 0.1rem;
+       padding: 0 2rem 1rem 2rem;
+       font-weight: 500;
+       color: $main__color;
+      }
+
+      .p__home {
+       text-transform: capitalize;
+       font-size: 0.9rem;
+       padding-bottom: 1rem;
+       letter-spacing: 0.1rem;
+       color: $main__color;
+      }
+
+    .homeScreen__btn__left {
+     // margin: 1rem;
+     background-color: $main__color;
+     color: $background__color;
+     border: 2px solid $main__color;
+
+     &:hover {
+      background-color: $primary__white;
+      color: $main__color;
+      transition: all 0.5s ease-in-out;
+     }
+    }
+
+    .homeScreen__btn__right {
+     margin: 1rem;
+     color: $main__color;
+     border: 2px solid $main__color;
+
+     &:hover {
+      background-color: $main__color;
+      color: $primary__white;
+      transition: all 0.5s ease-in-out;
+     }
+    }
+   }
+  }
+ }
+}
+

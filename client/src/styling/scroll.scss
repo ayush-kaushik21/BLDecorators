@@ -2,6 +2,7 @@
  position: fixed;
  bottom: 25px;
  right: 25px;
+ display: none;
 
  .expand__up {
   font-size: 3rem;
@@ -17,5 +18,6 @@
  .scrollBar__Button {
   bottom: 25px;
   right: 25px;
+   display: block;
  }
 }

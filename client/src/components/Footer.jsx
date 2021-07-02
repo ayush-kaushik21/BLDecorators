@@ -1,19 +1,19 @@
 import React from 'react'
 import FavoriteIcon from '@material-ui/icons/Favorite'
-import { NavLink } from 'react-router-dom'
+// import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <div>
       <div className='footer'>
         <div className='container'>
-          <div className='nav__items mx-auto'>
+          {/* <div className='nav__items mx-auto'>
             <NavLink to='/about'>About Us</NavLink>
             <NavLink to='/service'>Services</NavLink>
             <NavLink to='/gallery'>Gallery</NavLink>
             <NavLink to='/testimonial'>Testimonials</NavLink>
             <NavLink to='/contact'>Contact Us</NavLink>
-          </div>
+          </div> */}
           <p className='footer__tag__line'>
             &copy; {new Date().getFullYear()}, All Rights are Reserved, Created
             with <FavoriteIcon className='heart' /> by{' '}

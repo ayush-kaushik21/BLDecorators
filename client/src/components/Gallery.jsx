@@ -5,6 +5,7 @@ import GalleryButtons from './GalleryButtons'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
+import ScrollBtn from './ScrollBtn'
 
 const allCatValues = [
   ...new Set(
@@ -69,6 +70,7 @@ const Gallery = () => {
           </div>
         </SRLWrapper>
       </div>
+      <ScrollBtn showBelow={50} className='scroll__btn__active' />
     </div>
   )
 }

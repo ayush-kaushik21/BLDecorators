@@ -9,7 +9,7 @@ const FirstTest = () => {
         <div className='container'>
           <div className='card__template'>
             <div className='row '>
-              <div className='col-md-5 mx-auto'>
+              <div className='col-md-5 mx-auto '>
                 <div className='card shadow-lg card__testimonial'>
                   <div className='img__container'>
                     <img src={item.img} alt='logo' className='img-fluid' />

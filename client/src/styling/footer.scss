@@ -3,7 +3,7 @@
 
  .container {
   display: flex;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
   flex-direction: column;
 
@@ -22,6 +22,8 @@
    color: $primary__white;
    font-size: 0.7rem;
    letter-spacing: 0.1rem;
+   margin-bottom: 0;
+   padding: 0.4rem 0;
 
    .heart {
     font-size: 0.9rem;
@@ -31,7 +33,6 @@
     text-decoration: none;
     color: $primary__white;
    }
-
   }
  }
 }
