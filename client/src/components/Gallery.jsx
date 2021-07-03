@@ -96,7 +96,7 @@ const Images = [
     id: 13,
     category: 'Birthday',
     thumbnail: 'Flower Decorations',
-    img: '../images/Birthday3.jpeg',
+    img: '../images/birthday3.jpeg',
     animate: 'zoom-in',
   },
   {

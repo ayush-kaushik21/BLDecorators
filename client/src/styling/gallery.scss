@@ -22,7 +22,7 @@
  .img__style {
    width: 100%;
    height: 100%;
-   transform: scale(1.01);
+   transform: scale(1);
   }
 
  .info{
@@ -39,7 +39,7 @@
  }
  &:hover{
    .img__style{
-     transform: scale(1);
+     transform: scale(0.95);
      transition: 0.8s ease all;
    }
   .info{
@@ -47,7 +47,7 @@
    transition: 0.8s ease all;
 
    p{
-     color: $main__color;
+     color: $primary__white;
    }
   }
  }
