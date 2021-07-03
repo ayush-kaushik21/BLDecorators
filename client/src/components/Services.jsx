@@ -1,8 +1,4 @@
 import React from 'react'
-import Birthday from '../images/undraw_Birthday_cake_2wxy.svg'
-import Party from '../images/undraw_Having_fun_re_vj4h.svg'
-import Wedding from '../images/undraw_wedding_t1yl.svg'
-import DjNight from '../images/undraw_mello_otq1.svg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
@@ -25,7 +21,7 @@ const Services = () => {
                 <div className='card' data-aos='flip-left'>
                   <div className='card__img__container'>
                     <img
-                      src={Wedding}
+                      src='../images/undraw_wedding_t1yl.svg'
                       alt='wedding'
                       className='img-fluid img__size'
                     />
@@ -39,7 +35,7 @@ const Services = () => {
                 <div className='card' data-aos='flip-left'>
                   <div className='card__img__container'>
                     <img
-                      src={Birthday}
+                      src='../images/undraw_Birthday_cake_2wxy.svg'
                       alt='Birthday'
                       className='img-fluid img__size'
                     />
@@ -53,7 +49,7 @@ const Services = () => {
                 <div className='card' data-aos='flip-left'>
                   <div className='card__img__container'>
                     <img
-                      src={DjNight}
+                      src='../images/undraw_mello_otq1.svg'
                       alt='DjNight'
                       className='img-fluid img__size'
                     />
@@ -67,7 +63,7 @@ const Services = () => {
                 <div className='card' data-aos='flip-left'>
                   <div className='card__img__container'>
                     <img
-                      src={Party}
+                      src='../images/undraw_Having_fun_re_vj4h.svg'
                       alt='Party'
                       className='img-fluid img__size'
                     />

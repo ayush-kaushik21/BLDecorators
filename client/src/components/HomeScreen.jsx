@@ -35,21 +35,21 @@ const HomeScreen = () => {
           <div className='carousel-inner'>
             <div className='carousel-item active'>
               <img
-                src='https://thumbs.dreamstime.com/b/purple-wedding-table-decorations-purple-wedding-table-decorations-nice-summer-wedding-168187400.jpg'
+                src='../images/ceremony.jpeg'
                 className='d-block w-100'
                 alt='first'
               />
             </div>
             <div className='carousel-item'>
               <img
-                src='https://i.ytimg.com/vi/vjhh-7rK3Y4/maxresdefault.jpg'
+                src='../images/wedding.jpeg'
                 className='d-block w-100 mx-auto'
                 alt='second'
               />
             </div>
             <div className='carousel-item'>
               <img
-                src='https://thumbs.dreamstime.com/b/indian-wedding-reception-23254153.jpg'
+                src='../images/engagement3.jpeg'
                 className='d-block w-100'
                 alt='third'
               />
@@ -92,7 +92,7 @@ const HomeScreen = () => {
           <div className='col-md-6 col-10 mx-auto'>
             <div className='home__text__card__right '>
               <h5 className='h5__home'>
-                We create you dream decoration into reality!!!
+                We create your dream decoration into reality!!!
               </h5>
               <p className='p__home'>
                 Make your special day memorable with us.

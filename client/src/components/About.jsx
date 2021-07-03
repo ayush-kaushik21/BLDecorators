@@ -11,7 +11,7 @@ const About = () => {
           <div className='col-md-6 col-10 mx-auto left__img'>
             <div className='about__img__container'>
               <img
-                src='https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60'
+                src='../images/golu.jpg'
                 alt='selfie'
                 className='img-fluid'
               />

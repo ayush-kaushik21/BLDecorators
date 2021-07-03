@@ -1,5 +1,5 @@
 import React from 'react'
-import LocationImg from '../images/undraw_Navigation_re_wxx4.svg'
+
 
 const Map = () => {
   return (
@@ -11,7 +11,7 @@ const Map = () => {
             <div className='col-md-6 col-11 mx-auto left__image'>
               <div className='img-container'>
                 <img
-                  src={LocationImg}
+                  src='../images/undraw_Navigation_re_wxx4.svg' 
                   alt='location'
                   className='img-fluid animateImg'
                 />

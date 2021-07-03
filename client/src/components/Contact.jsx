@@ -83,7 +83,7 @@ const Contact = () => {
                   <IconButton>
                     <MailIcon className='contact__icon' />
                   </IconButton>
-                  kayushik2001@gmail.com
+                  shubhamgolu852@gmail.com
                 </p>
               </div>
             </div>
